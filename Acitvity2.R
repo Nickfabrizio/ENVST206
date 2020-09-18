@@ -17,7 +17,7 @@ yrs1950 <- datW$PRCP_cm[datW$year < 1950]
 
 dat50s <- datW[datW$year <= 1950, ]
 dat50s <- datW[datW$year <= 1950, 2:3]
-
+dat50s
 hits(datW$TMAX[datW$year == 1930 & datW$NAME == "MORRISVILLE 6 SW, NY US"])
 
 help(hints)
