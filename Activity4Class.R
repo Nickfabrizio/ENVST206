@@ -15,3 +15,4 @@ plot(datB$dams.n, dam.res, pch = 11)
 abline(h= 0)
 
 summary(dam.mod)
+help(ifelse)
